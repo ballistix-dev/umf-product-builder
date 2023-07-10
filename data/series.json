@@ -1,0 +1,215 @@
+[{
+	"series": "FusionONE",
+	"url": "https://www.umfmedical.com/product/fusionone-series-power-exam-tables/",
+	"name": "FusionONE Power Exam Tables",
+	"description": "<p>With the accessibility of a power table and the affordability of a box table, the FusionONE Exam Table offers the features healthcare providers need most.</p><p>This hi-lo exam table enables simple ADA access and ease of examination for patients of all ages and abilities.</p>",
+	"variant": [
+		["FUSION_Blue_Skies", "Blue Skies"],
+		["FUSION_Cherry_Blossom", "Cherry Blossom"],
+		["FUSION_Chocolate_Truffle", "Chocolate Truffle"],
+		["FUSION_Classic_Black", "Classic Black"],
+		["FUSION_Creamy_Latte", "Creamy Latte"],
+		["FUSION_Deep_Forest", "Deep Forest"],
+		["FUSION_Fine_Wine", "Fine Wine"],
+		["FUSION_Lakeside_Blue", "Lakeside Blue"],
+		["FUSION_Lemon_Meringue", "Lemon Meringue"],
+		["FUSION_Mint_Leaf", "Mint Leaf"],
+		["FUSION_Morning_Frog", "Morning Fog"],
+		["FUSION_Smoky_Cashmere", "Smoky Cashmere"],
+		["FUSION_Soft_Linen", "Soft Linen"],
+		["FUSION_True_Graphite", "True Graphite"],
+		["FUSION_Twilight_Blue", "Twilight Blue"],
+		["FUSION_Warm_Sand","Warm Sand"]
+	]
+},{
+	"series": "FusionONEPlus",
+	"url": "https://www.umfmedical.com/product/fusionone-series-power-exam-tables/",
+	"name": "FusionONE+ Power Exam Tables",
+	"description": "<p>Fusing the accessibility of a power table and the affordability of a fixed-height box table, the FusionONE+ Power Exam Table offers the features healthcare providers need most. </p><p>Featuring a power back, this hi-lo exam table can accommodate multiple specialties. It enables simple ADA access and ease of examination for patients of all ages and abilities. The power backrest makes it easy to lie patients back and sit them up safely and comfortably.</p>",
+	"variant": [
+		["3503_Soft_Linen", "Soft Linen"],
+		["3503_Smoky_Cashmere", "Smoky Cashmere"],
+		["3503_Warm_Sand","Warm Sand"],
+		["3503_Creamy_Latte", "Creamy Latte"],
+		["3503_Chocolate_Truffle", "Chocolate Truffle"],
+		["3503_Lemon_Meringue", "Lemon Meringue"],
+		["3503_Cherry_Blossom", "Cherry Blossom"],
+		["3503_Morning_Frog", "Morning Fog"],
+		["3503_True_Graphite", "True Graphite"],
+		["3503_Classic_Black", "Classic Black"],
+		["3503_Blue_Skies", "Blue Skies"],
+		["3503_Fine_Wine", "Fine Wine"],
+		["3503_Lakeside_Blue", "Lakeside Blue"],
+		["3503_Twilight_Blue", "Twilight Blue"],
+		["3503_Mint_Leaf", "Mint Leaf"],
+		["3503_Deep_Forest", "Deep Forest"]
+	]
+},{
+	"series": "FUSIONONEPROGLIDE",
+	"url": "https://www.umfmedical.com/product/fusionone-series-power-exam-tables/",
+	"name": "FusionONE ProGlide Exam Tables",
+	"description": "",
+	"variant": []
+},{
+	"series": "FUSIONONEPLUSPROGLIDE",
+	"url": "https://www.umfmedical.com/product/fusionone-series-power-exam-tables/",
+	"name": "FusionONE+ ProGlide Exam Tables",
+	"description": "",
+	"variant": []
+},{
+	"series": "4070",
+	"url": "https://www.umfmedical.com/product/4070-manual-back-exam-chairs/",
+	"name": "4070 Manual Back Exam Tables",
+	"description": "<p>The 4070 Manual Back Exam Table Series are products of extensive research and clinical feedback, developed to improve patient care and streamline the work of healthcare providers.</p><p>Designed for exams, these tables meet ADA and U.S. Access Board regulations and accommodates the needs of most patients.</p>",
+	"variant": [
+		["4070_Blue_Skies", "Blue Skies"],
+		["4070_Cherry_Blossom", "Cherry Blossom"],
+		["4070_Chocolate_Truffle", "Chocolate Truffle"],
+		["4070_Classic_Black", "Classic Black"],
+		["4070_Creamy_Latte", "Creamy Latte"],
+		["4070_Deep_Forest", "Deep Forest"],
+		["4070_Fine_Wine", "Fine Wine"],
+		["4070_Lakeside_Blue", "Lakeside Blue"],
+		["4070_Lemon_Meringue", "Lemon Meringue"],
+		["4070_Mint_Leaf", "Mint Leaf"],
+		["4070_Morning_Frog", "Morning Fog"],
+		["4070_Smoky_Cashmere", "Smoky Cashmere"],
+		["4070_Soft_Linen", "Soft Linen"],
+		["4070_True_Graphite", "True Graphite"],
+		["4070_Twilight_Blue", "Twilight Blue"],
+		["4070_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "4040",
+	"url": "https://www.umfmedical.com/product/proglide300/",
+	"name": "4040 Power Back Exam Tables",
+	"description": "<p>The 4040 Power Back Exam Table Series are products of extensive research and clinical feedback, developed to improve patient care and streamline the work of healthcare providers.</p><p>Designed for exams, these tables meet ADA and U.S. Access Board regulations and accommodates the needs of most patients.</p>",
+	"variant": [
+		["4040_Blue_Skies", "Blue Skies"],
+		["4040_Cherry_Blossom", "Cherry Blossom"],
+		["4040_Chocolate_Truffle", "Chocolate Truffle"],
+		["4040_Classic_Black", "Classic Black"],
+		["4040_Creamy_Latte", "Creamy Latte"],
+		["4040_Deep_Forest", "Deep Forest"],
+		["4040_Fine_Wine", "Fine Wine"],
+		["4040_Lakeside_Blue", "Lakeside Blue"],
+		["4040_Lemon", "Lemon Meringue"],
+		["4040_Mint", "Mint Leaf"],
+		["4040_Morning_Frog", "Morning Fog"],
+		["4040_Smoky_Cashmere", "Smoky Cashmere"],
+		["4040_Soft_Linen", "Soft Linen"],
+		["4040_True_Graphite", "True Graphite"],
+		["4040_Twilight_Blue", "Twilight Blue"],
+		["4040_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "4011",
+	"url": "https://www.umfmedical.com/product/4011-leg-centric-procedure-chairs/",
+	"name": "4011 Leg-Centric Procedure Chairs",
+	"description": "<p>The 4011 Leg-Centric Procedure Chair Series are products of extensive research and clinical feedback, developed to improve patient care and streamline the work of healthcare providers, such as OB/GYN and Oncology professionals.</p><p>Designed for procedures, these chairs meet ADA and U.S. Access Board regulations and accommodates the needs of most patients.</p>",
+	"variant": [
+		["4011_Blue_Skies", "Blue Skies"],
+		["4011_Cherry_Blossom", "Cherry Blossom"],
+		["4011_Chocolate_Truffle", "Chocolate Truffle"],
+		["4011_Classic_Black", "Classic Black"],
+		["4011_Creamy_Latte", "Creamy Latte"],
+		["4011_Deep_Forest", "Deep Forest"],
+		["4011_Fine_Wine", "Fine Wine"],
+		["4011_Lakeside_Blue", "Lakeside Blue"],
+		["4011_Lemon_Meringue", "Lemon Meringue"],
+		["4011_Mint_Leaf", "Mint Leaf"],
+		["4011_Morning_Frog", "Morning Fog"],
+		["4011_Smoky_Cashmere", "Smoky Cashmere"],
+		["4011_Soft_Linen", "Soft Linen"],
+		["4011_True_Graphite", "True Graphite"],
+		["4011_Twilight_Blue", "Twilight Blue"],
+		["4011_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "4010",
+	"url": "https://www.umfmedical.com/product/4010-head-centric-procedure-chairs/",
+	"name": "4010 Head-Centric Procedure Chairs",
+	"description": "<p>The 4010 Head-Centric Procedure Chair Series are products of extensive research and clinical feedback, developed to improve patient care and streamline the work of healthcare providers, such as ENT, Dermatology, and Plastic Surgery professionals.</p><p>Designed for head-centric procedures, these chairs meet ADA and U.S. Access Board regulations and accommodates the needs of most patients.</p>",
+	"variant": [
+		["4010_Blue_Skies", "Blue Skies"],
+		["4010_Cherry_Blossom", "Cherry Blossom"],
+		["4010_Chocolate_Truffle", "Chocolate Truffle"],
+		["4010_Classic_Black", "Classic Black"],
+		["4010_Creamy_Latte", "Creamy Latte"],
+		["4010_Deep_Forest", "Deep Forest"],
+		["4010_Fine_Wine", "Fine Wine"],
+		["4010_Lakeside_Blue", "Lakeside Blue"],
+		["4010_Lemon_Meringue", "Lemon Meringue"],
+		["4010_Mint_Leaf", "Mint Leaf"],
+		["4010_Morning_Frog", "Morning Fog"],
+		["4010_Smoky_Cashmere", "Smoky Cashmere"],
+		["4010_Soft_Linen", "Soft Linen"],
+		["4010_True_Graphite", "True Graphite"],
+		["4010_Twilight_Blue", "Twilight Blue"],
+		["4010_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "5016",
+	"url": "https://www.umfmedical.com/product/5016-podiatry-wound-care-procedure-chairs/",
+	"name": "5016 Podiatry/Wound Care Procedure Chairs",
+	"description": "<p>The 5016 Podiatry/Wound Care Procedure Chair Series are products of extensive research and clinical feedback, developed to improve patient care and streamline the work of healthcare providers.</p><p>Designed for podiatry and wound care procedures, these chairs meet ADA and U.S. Access Board regulations and accommodates the needs of most patients.</p>",
+	"variant": [
+		["5016_Blue_Skies", "Blue Skies"],
+		["5016_Cherry_Blossom", "Cherry Blossom"],
+		["5016_Chocolate_Truffle", "Chocolate Truffle"],
+		["5016_Classic_Black", "Classic Black"],
+		["5016_Creamy_Latte", "Creamy Latte"],
+		["5016_Deep_Forest", "Deep Forest"],
+		["5016_Fine_Wine", "Fine Wine"],
+		["5016_Lakeside_Blue", "Lakeside Blue"],
+		["5016_Lemon_Meringue", "Lemon Meringue"],
+		["5016_Mint_Leaf", "Mint Leaf"],
+		["5016_Morning_Frog", "Morning Fog"],
+		["5016_Smoky_Cashmere", "Smoky Cashmere"],
+		["5016_Soft_Linen", "Soft Linen"],
+		["5016_True_Graphite", "True Graphite"],
+		["5016_Twilight_Blue", "Twilight Blue"],
+		["5016_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "5240",
+	"url": "https://www.umfmedical.com/product/manual-exam-table-with-four-storage-drawers/",
+	"name": "Manual Exam Table with Four Storage Drawers",
+	"description": "<p>UMF Medical Manual Exam Tables with pneumatic-assist back have a 500lb weight capacity, and reversible side and front storage drawers to accommodate table placement in any room configuration. The table also features hidden stirrups, and an all-steel, OSHA-compliant step with anti-slip guards. Ships assembled for easy installation.</p>",
+	"variant": [
+		["5240_Blue_Skies", "Blue Skies"],
+		["5240_Cherry_Blossom", "Cherry Blossom"],
+		["5240_Chocolate_Truffle", "Chocolate Truffle"],
+		["5240_Classic_Black", "Classic Black"],
+		["5240_Creamy_Latte", "Creamy Latte"],
+		["5240_Deep_Forest", "Deep Forest"],
+		["5240_Fine_Wine", "Fine Wine"],
+		["5240_Lakeside_Blue", "Lakeside Blue"],
+		["5240_Lemon_Meringue", "Lemon Meringue"],
+		["5240_Mint_Leaf", "Mint Leaf"],
+		["5240_Morning_Frog", "Morning Fog"],
+		["5240_Smoky_Cashmere", "Smoky Cashmere"],
+		["5240_Soft_Linen", "Soft Linen"],
+		["5240_True_Graphite", "True Graphite"],
+		["5240_Twilight_Blue", "Twilight Blue"],
+		["5240_Warm_Sand", "Warm Sand"]
+	]
+}, {
+	"series": "5240-145",
+	"url": "https://www.umfmedical.com/product/manual-exam-table-w-four-storage-drawers-and-side-step/",
+	"name": "Manual Exam Table with Four Storage Drawers and Side Step",
+	"description": "<p>UMF Medical Manual Exam Tables with pneumatic-assist back have a 500lb weight capacity, and reversible side and front storage drawers to accommodate table placement in any room configuration. The table also features hidden stirrups, and an all-steel, OSHA-compliant step with anti-slip guards. Ships assembled for easy installation.</p>",
+	"variant": []
+}, {
+	"series": "5250",
+	"url": "https://www.umfmedical.com/product/manual-exam-table-with-five-storage-drawers/",
+	"name": "Manual Exam Table with Five Storage Drawers",
+	"description": "<p>UMF Medical Manual Exam Tables with pneumatic-assist back have a 500lb weight capacity, and reversible side and front storage drawers to accommodate table placement in any room configuration. The table also features hidden stirrups, and an all-steel, OSHA-compliant step with anti-slip guards. Ships assembled for easy installation.</p>",
+	"variant": []
+}, {
+	"series": "5005",
+	"url": "https://www.umfmedical.com/product/two-function-bariatric-power-table/",
+	"name": "Two-Function Bariatric Power Table",
+	"description": "<p>The UMF Medical 5005 Bariatric Treatment Table provides unmatched capacity and comfort in a stable, heavy-duty all-steel design. The 5005 has an 800-lb. (362.9kg) patient weight capacity and a low 19” seat height. It also features a fully articulating power back section as well as power hi-lo control.</p>",
+	"variant": []
+}]

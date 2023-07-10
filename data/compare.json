@@ -1,0 +1,418 @@
+[{
+		"model_number": "3001",
+		"brand": "UMF Medical",
+		"name": "FusionONE Exam Table",
+		"comparable_models": "3001,3002,3003,4070-650-100"
+	},
+	{
+		"model_number": "3002",
+		"brand": "UMF Medical",
+		"name": "FusionONE Exam Table",
+		"comparable_models": "3002,3001,3003,4070-650-100"
+	},
+	{
+		"model_number": "3002-500-300",
+		"brand": "UMF Medical",
+		"name": "FusionONE ProGlide Exam Table",
+		"comparable_models": "3002-500-300,4070-650-300,3002"
+	},
+	{
+		"model_number": "3003",
+		"brand": "UMF Medical",
+		"name": "FusionONE Exam Table",
+		"comparable_models": "3003,3001,3002,4070-650-100"
+	},
+	{
+		"model_number": "3003-500-300",
+		"brand": "UMF Medical",
+		"name": "FusionONE ProGlide Exam Table",
+		"comparable_models": "3003-500-300,4070-650-300,3003"
+	},
+	{
+		"model_number": "3502",
+		"brand": "UMF Medical",
+		"name": "FusionONE+ Exam Table",
+		"comparable_models": "3502"
+	},
+	{
+		"model_number": "3502-500-300",
+		"brand": "UMF Medical",
+		"name": "FusionONE+ ProGlide Exam Table",
+		"comparable_models": "3502-500-300,4040-650-300,3502"
+	},
+	{
+		"model_number": "3503",
+		"brand": "UMF Medical",
+		"name": "FusionONE+ Exam Table",
+		"comparable_models": "3503"
+	},
+	{
+		"model_number": "3503-500-300",
+		"brand": "UMF Medical",
+		"name": "FusionONE+ ProGlide Exam Table",
+		"comparable_models": "3503-500-300,4040-650-300,3503"
+	},
+	{
+		"model_number": "4010",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "4010-650-100,4010-650-200,4010-650-300"
+	},
+	{
+		"model_number": "4010-650-100",
+		"brand": "UMF Medical",
+		"name": "Power4010 Head-Centric Procedure Chair",
+		"comparable_models": "4010-650-100,4010-650-200,4010-650-300"
+	},
+	{
+		"model_number": "4010-650-200",
+		"brand": "UMF Medical",
+		"name": "Power4010p Head-Centric Procedure Chair",
+		"comparable_models": "4010-650-200,4010-650-100,4010-650-300"
+	},
+	{
+		"model_number": "4010-650-300",
+		"brand": "UMF Medical",
+		"name": "ProGlide4010 Head-Centric Procedure Chair",
+		"comparable_models": "4010-650-300,4010-650-100,4010-650-200"
+	},
+	{
+		"model_number": "4011-650-100",
+		"brand": "UMF Medical",
+		"name": "Power4011 Leg-Centric Procedure Chair",
+		"comparable_models": "4011-650-100,4011-650-200,4011-650-300"
+	},
+	{
+		"model_number": "4011-650-200",
+		"brand": "UMF Medical",
+		"name": "Power4011p Leg-Centric Procedure Chair",
+		"comparable_models": "4011-650-200,4011-650-100,4011-650-300"
+	},
+	{
+		"model_number": "4011-650-300",
+		"brand": "UMF Medical",
+		"name": "ProGlide4011 Leg-Centric Procedure Chair",
+		"comparable_models": "4011-650-300,4011-650-100,4011-650-200"
+	},
+	{
+		"model_number": "4040",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "4040-650-200,4040-650-100,4040-650-300"
+	},
+	{
+		"model_number": "4040-650-100",
+		"brand": "UMF Medical",
+		"name": "Power100+ Exam Table",
+		"comparable_models": "4040-650-100,4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "4040-650-200",
+		"brand": "UMF Medical",
+		"name": "Power200+ Exam Table",
+		"comparable_models": "4040-650-200,4040-650-100,4040-650-300"
+	},
+	{
+		"model_number": "4040-650-300",
+		"brand": "UMF Medical",
+		"name": "ProGlide300+ Exam Table",
+		"comparable_models": "4040-650-300,4040-650-100,4040-650-200"
+	},
+	{
+		"model_number": "4070",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "4070-650-200,4070-650-100,4070-650-300"
+	},
+	{
+		"model_number": "4070-650-100",
+		"brand": "UMF Medical",
+		"name": "Power100 Exam Table",
+		"comparable_models": "4070-650-100,4070-650-200,4070-650-300"
+	},
+	{
+		"model_number": "4070-650-200",
+		"brand": "UMF Medical",
+		"name": "Power200 Exam Table",
+		"comparable_models": "4070-650-200,4070-650-100,4070-650-300"
+	},
+	{
+		"model_number": "4070-650-300",
+		"brand": "UMF Medical",
+		"name": "ProGlide300 Exam Table",
+		"comparable_models": "4070-650-300,4070-650-100,4070-650-200"
+	},
+	{
+		"model_number": "5005",
+		"brand": "UMF Medical",
+		"name": "Two-Function Bariatric Exam Table",
+		"comparable_models": "5005"
+	},
+	{
+		"model_number": "5016",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "5016-650-100,5016-650-200,5016-650-300"
+	},
+	{
+		"model_number": "5016-650-100",
+		"brand": "UMF Medical",
+		"name": "Power5016 Podiatry/Wound Care Procedure Chair",
+		"comparable_models": "5016-650-100,5016-650-200,5016-650-300"
+	},
+	{
+		"model_number": "5016-650-200",
+		"brand": "UMF Medical",
+		"name": "Power5016p Podiatry/Wound Care Procedure Chair",
+		"comparable_models": "5016-650-200,5016-650-100,5016-650-300"
+	},
+	{
+		"model_number": "5016-650-300",
+		"brand": "UMF Medical",
+		"name": "ProGlide5016 Podiatry/Wound Care Procedure Chair",
+		"comparable_models": "5016-650-300,5016-650-100,5016-650-200"
+	},
+	{
+		"model_number": "5050",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "5005"
+	},
+	{
+		"model_number": "5060",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "4040-650-200,4040-650-100,4040-650-300"
+	},
+	{
+		"model_number": "5080",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "4070-650-200,4070-650-100,4070-650-300"
+	},
+	{
+		"model_number": "5140",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "5240,5240-145,5250,3002"
+	},
+	{
+		"model_number": "5150",
+		"brand": "UMF Medical",
+		"name": "Exam Table (obsolete)",
+		"comparable_models": "5250,5240,5240-145,3002"
+	},
+	{
+		"model_number": "5240",
+		"brand": "UMF Medical",
+		"name": "Manual Exam Table",
+		"comparable_models": "5240,5240-145,5250,3002"
+	},
+	{
+		"model_number": "5240-145",
+		"brand": "UMF Medical",
+		"name": "Manual Exam Table",
+		"comparable_models": "5240-145,5240,5250,3002"
+	},
+	{
+		"model_number": "5250",
+		"brand": "UMF Medical",
+		"name": "Manual Exam Table",
+		"comparable_models": "5250,5240,5240-145,3002"
+	},
+	{
+		"model_number": "626-001",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4040-650-300"
+	},
+	{
+		"model_number": "604-001",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "5250,5240,5240-145,3002"
+	},
+	{
+		"model_number": "647-002",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "5016-650-200,5016-650-100,5016-650-300"
+	},
+	{
+		"model_number": "630-010",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4011-650-200,4011-650-300"
+	},
+	{
+		"model_number": "630-020",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4011-650-200,4011-650-300"
+	},
+	{
+		"model_number": "641-002",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4010-650-100,4010-650-200,4010-650-300"
+	},
+	{
+		"model_number": "641-003",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4010-650-200,4010-650-300"
+	},
+	{
+		"model_number": "230-002",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4011-650-100,4011-650-200,4011-650-300"
+	},
+	{
+		"model_number": "222",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "3003"
+	},
+	{
+		"model_number": "223",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4040-650-200"
+	},
+	{
+		"model_number": "75L",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4011-650-200"
+	},
+	{
+		"model_number": "224-001",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "3002"
+	},
+	{
+		"model_number": "224-002",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "3003"
+	},
+	{
+		"model_number": "224-003",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4070-650-300",
+		"option_model": "3003"
+	},
+	{
+		"model_number": "225-002",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "3502"
+	},
+	{
+		"model_number": "225-003",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "4040-650-300",
+		"option_model": "3503"
+	},
+	{
+		"model_number": "244-001",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "5005"
+	},
+	{
+		"model_number": "204-001",
+		"brand": "Midmark Ritter",
+		"name": "",
+		"comparable_models": "5240,5240-145"
+	},
+	{
+		"model_number": "4000",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "5240"
+	},
+	{
+		"model_number": "5000",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "5240,5240-145,5250,3002"
+	},
+	{
+		"model_number": "5700",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4070-650-100,4070-650-200,4070-650-300"
+	},
+	{
+		"model_number": "5701",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4070-650-200,4070-650-300"
+	},
+	{
+		"model_number": "5800",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "5801",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "6000",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4070-650-100,4070-650-200,4070-650-300"
+	},
+	{
+		"model_number": "6001",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4070-650-200,4070-650-300"
+	},
+	{
+		"model_number": "6500",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-100,4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "6501",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "6800",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-100,4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "6801",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4040-650-200,4040-650-300"
+	},
+	{
+		"model_number": "7000",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4011-650-100,4011-650-200,4011-650-300"
+	},
+	{
+		"model_number": "7500",
+		"brand": "Brewer",
+		"name": "",
+		"comparable_models": "4011-650-200,4011-650-300"
+	}
+	
+]

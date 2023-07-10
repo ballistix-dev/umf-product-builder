@@ -1,0 +1,158 @@
+#build-your-own-table {
+  .hero {
+
+    background-color: #F1F1F3;
+    padding-bottom: $base-spacing*10;
+
+    @include media($desktop-width) {
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      background-position: 100% 0;
+
+      background-image: url('./../img/build.png')
+    }
+  }
+
+  #result {
+
+    h3 {
+      flex-basis: 100%;
+      padding-bottom: $base-spacing;
+      margin-bottom: $base-spacing*4;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 48%;
+        bottom: 0;
+        left: 48%;
+
+        border-bottom: 5px solid #06D5B9;
+      }
+    }
+    .content {
+      background-color: #EFF5FD;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      align-items: center;
+    }
+    @include media($desktop-width) {
+      h3 {
+        text-align: center;
+      }
+    }
+    .series {
+      padding-top: $base-spacing*4;
+      //padding-bottom: $base-spacing*4;
+      flex-basis: 100%;
+
+
+
+      @include media($desktop-width) {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        h4 {
+          flex-basis: 100%;
+          text-align: center;
+        }
+        .entry {
+        flex-basis: 33.33%;
+        h5,
+        img {
+          text-align: center;
+        }
+        }
+      }
+
+      .entry {
+        padding: $base-spacing;
+        ul {
+          list-style: none;
+
+          padding: 0;
+          li {
+            padding-left: $base-spacing*1.5;
+            position: relative;
+            margin-bottom: $base-spacing*1.5;
+            &:before {
+              position: absolute;
+              top: 1px;
+              left: 0;
+              font-family: "Font Awesome 5 Pro";
+              font-weight: 900;
+              content: "\f14a";
+              color: $primary-color;
+            }
+          }
+        }
+        .product_information {
+          @extend.button-outline;
+        }
+      }
+    }
+  }
+
+  #questions {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+
+    margin: 0;
+    padding: 0;
+
+    > li {
+      counter-increment: my-awesome-counter;
+
+      position: relative;
+
+      padding-left: $base-spacing*2;
+
+      &::before {
+        content: counter(my-awesome-counter) ". ";
+        color: $primary-color;
+        font-weight: bold;
+
+        margin-right: $base-spacing;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include media($desktop-width) {
+          font-size: modular-scale(1);
+        }
+      }
+    }
+
+    span {
+
+      margin-bottom: $base-spacing;
+      font-weight: 700;
+
+      @include media($desktop-width) {
+        font-size: modular-scale(1);
+
+      }
+    }
+
+    label {
+      padding: $small-spacing 0 0 0;
+      margin: 0 0 0 0;
+    }
+  }
+
+  .choices {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 0;
+    }
+  }
+}

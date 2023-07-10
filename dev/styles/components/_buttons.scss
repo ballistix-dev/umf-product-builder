@@ -1,0 +1,76 @@
+// Buttons
+$_button-background-color: $primary-color;
+$_button-background-color-hover: shade($_button-background-color, 20);
+$_button-border-color: $_button-background-color;
+$_button-border-radius: $base-border-radius;
+
+#{$all-buttons},
+.button {
+  display: inline-block;
+
+  padding: $base-spacing $base-spacing*2;
+  //margin-bottom: $base-spacing;
+
+  cursor: pointer;
+  user-select: none;
+  transition: background-color $base-duration $base-timing;
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: contrast-switch($_button-background-color);
+
+  color: #FFFFFF;
+  border: 1px solid $_button-border-color;
+  border-radius: $_button-border-radius;
+  outline: 0;
+  background-color: $_button-background-color;
+
+  font-family: $base-font-family;
+
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: 1;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+  &:hover {
+    //color: contrast-switch($_button-background-color-hover);
+    color: white;//contrast-switch($_button-background-color-hover);
+    background-color: $_button-background-color-hover;
+  }
+
+  &:focus {}
+
+  &:disabled {
+    cursor: not-allowed;
+
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $_button-background-color;
+    }
+  }
+
+}
+.button-outline {
+  @extend.button;
+  background-color: transparent;
+  color: $dark-gray;
+  border-color: #a0f7eb;
+  border-width: 2px;
+  &:hover {
+    color: $dark-gray;
+    background-color: #a0f7eb;
+  }
+}
+
+.button-outline-gray {
+
+}

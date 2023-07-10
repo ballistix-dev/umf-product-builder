@@ -1,0 +1,241 @@
+(function($) {
+
+var MODELS,
+  SERIES,
+  PLUGIN_URL = window.location.origin;// + '/wp-content/plugins/umf-product-builder';
+
+$.getJSON( PLUGIN_URL + "/data/series.json?ver=1.0.6", function(data) {
+  SERIES = data;
+  $.getJSON( PLUGIN_URL + "/data/models.json?ver=1.0.6", function(data) {
+    MODELS = data;
+    $('#models').html( get_models(MODELS, "name,obsolete")) ;
+    get_result(
+      $("input[name=model]:checked", "#models").val(),
+      $("input[name=model]:checked", "#models").attr("data-brand-name"),
+      $("input[name=model]:checked", "#models").attr("data-series")
+    );
+  });
+});
+
+
+function getBaseUrl() {
+  var getUrl = window.location;
+  return getUrl.protocol + "//" + getUrl.host + getUrl.pathname.split('/')[1];
+}
+
+
+function value_exist(array, key, val) {
+  let x = 0,
+  y = 0;
+  $.each(array, function(index, value) {
+    if (value[key] === val) {
+      x = 1;
+      y = index;
+    }
+  });
+  return [x, y];
+}
+
+function get_result(query, brand_name, series ) {
+
+  var comparable_models = query.split(/[ ,]+/).map(Number);
+
+  // // GET OTHER MODELS IN SERIES
+  const model_in_series = MODELS.filter(item => item.series.indexOf( series ) !== -1);
+
+  $.each(model_in_series, function(index, value) {
+    if ( !comparable_models.includes( value["id"] ) ) {
+      comparable_models.push( value["id"] );
+    }
+  });
+
+  console.log( comparable_models );
+
+  // if (brand_name === 'name' ) {
+  //   value = comparable_models[1];
+  // } else {
+  //   value = comparable_models[0];
+  // }
+
+   for (let index = 0; index < comparable_models.length; index++) {
+
+     if (index < 1 ) {
+        // FILL MODEL DATA
+        $('#result .content').html(
+          '<div class="wrap">'
+          + '<h4>' + MODELS[ comparable_models[index] ]["name"] + '</h4>'
+          + '<ul class="feature"></ul>'
+          + '<a class="product_information" target="_blank" href="' + MODELS[ comparable_models[index] ]["product_information"] + '"> Download product information </a>'
+          //+ '<br><a target="_blank" href="'+ series["url"] +'">Visit our website to learn more</a><br><br>'
+          + '<hr><h5>Other comparable models:</h5><ul class="other"></ul>'
+          + '</div>'
+        );
+        $.each(MODELS[ comparable_models[index] ]["features"], function(x, y) {
+          $('#result .feature').append('<li>' + y + '</li>');
+        });
+     } else {
+       //$('#result .other').append( '<li><a class="other_model" href="' + MODELS[ comparable_models[index]]["id"] + '" target="_blank">' + MODELS[ comparable_models[index]]["name"] + '</li>' );
+       $('#result .other').append( '<li>' + MODELS[ comparable_models[index]]["name"] + '</li>' );
+     }
+   }
+
+
+
+
+
+ //
+ //  // GET OTHER Comparable model
+ //  var comparable = [];
+ //  if ( model.length > 1) {
+ //    for (let index = 1; index < model.length; index++) {
+ //      if ( !comparable.includes( MODELS[Number(model[index])]["id"] ) ) {
+ //          comparable.push( MODELS[Number(model[index])]["id"] );
+ //      }
+ //    }
+ // }
+ // // GET OTHER MODELS IN SERIES
+ // const models = MODELS.filter(item => item.series.indexOf(MODELS[value]["series"]) !== -1);
+ // $.each(models, function(x, y) {
+ //   if ( !comparable.includes( y["id"] ) ) {
+ //       comparable.push( y["id"] );
+ //   }
+ // });
+ // temp  = '<hr>';
+ // temp += '<h5>Other comparable models:</h5>';
+ // temp += '<ul class="other">';
+ // for (let index = 0; index < comparable.length; index++) {
+ //   y = Number(comparable[index]) ;
+ //   temp += '<li><a class="other_model" href="' + MODELS[y]["id"] + '" target="_blank">' + MODELS[y]["name"] + '</li>';
+ // }
+ // temp += '</ul>';
+ // $('#result .content .wrap').append(temp);
+
+
+
+
+    // // AUGMENTED REALITY DATA: FROM MODEL SERIES
+    // var regex = new RegExp("(<=\\s|\\b)" + MODELS[value]["series"] + "(?=[]\\b|\\s|$)");
+    // const series = SERIES.find(item => item.series.search(regex) !== -1);
+    // if (series["variant"]) {
+    //   $('bitreel-model-viewer').attr('modelname', series["variant"][0][0]);
+    //   var slide = document.querySelector("bitreel-model-viewer").shadowRoot.querySelector(".slides")
+    //   $(slide).empty();
+    //   $.each(series["variant"], function(index, value) {
+    //     str = value[1].replace(/\s+/g, '-').toLowerCase();
+    //     $(slide).append('<button class="slide selected" onclick="switchSrc(this, &apos;' + value[0] + '&apos;)" style="background-image: url(' + PLUGIN_URL + '/img/swatch/swatch_' + str + '.png); background-position: center 10px; background-color: transparent; border-radius: 0; border: none !important; justify-content: center;"><span class="text-wrap" style="display: block; align-self: flex-end; height: 35px;"><span class="color-option">' + value[1] + '</span></span></button>');
+    //   });
+    //   $('#result .augmented-reality').show();
+    //   $('#result .image').hide();
+    // } else {
+    //   $('#result .augmented-reality').hide();
+    //   $('#result .image').html( '<img src="' + MODELS[value]["image"] + '">');
+    //   $('#result .image').show();
+    // }
+    //
+
+
+
+} // end get_model()
+
+function get_models(data, query) {
+  $('#models').empty();
+  var result = [];
+  var temp = [];
+  $.each(query.split(','), function(brand_id, brand_name) {
+    // FIND MODELS WITH BRAND NAME
+    $.each(data, function(index, value) {
+      sn = [];
+      if (value[brand_name]) {
+        if ( Array.isArray( value[brand_name] ) ) {
+          $.each(value[brand_name], function( a, b ) {
+            sn["name"] = b ;
+            sn["value"] = value['id'];
+            sn["series"] = value['series'];
+            sn["brand_name"] = brand_name;
+            temp.push( sn );
+          });
+        } else {
+          sn["name"] = value[ brand_name ] ;
+          sn["value"] = value['id'];
+          sn["series"] = value['series'];
+          sn["brand_name"] = brand_name;
+          temp.push( sn );
+        }
+      }
+    });
+  });
+  $.each(temp, function(index, value) {
+    tx = [];
+    if ( value_exist(result, "name", value["name"] )[0]  ) {
+      x = value_exist(result, "name", value["name"])[1];
+      result[ x ]['value'].push( value['value'] );
+    } else {
+      tx["name"] = value["name"] ;
+      tx["brand_name"] = value["brand_name"];
+      tx["series"] = value["series"];
+      tx["value"] = [ value['value'] ];
+      result.push( tx );
+    }
+  });
+
+  // SORT
+  result.sort((x, y) => {
+    var a = x.name.toLowerCase();
+    var b = y.name.toLowerCase();
+    if (a < b) {
+      return -1;
+    } else if (a > b) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
+  var list = "";
+  $.each(result, function(index, value) {
+    str = value["name"].replace(/\s+/g, '-').toLowerCase();
+    list += '<li><label for="' + str + '"><input type="radio" id="' + str + '" name="model" data-brand-name="' + value['brand_name'] + '" data-series="' + value['series'] + '" value="' + value['value'] + '"  ';
+    if (index <= 0) list += ' checked';
+    list += '>' + value["name"] + '</label></li>'
+  });
+  return list;
+}
+
+
+// STEP 1
+$('#brands').on('change', 'input[type="radio"]', function() {
+  $('#models').addClass('loading');
+  $('#result').addClass('loading');
+  setTimeout(function() {
+    $('#models').html(get_models(MODELS, $("input[name='brand']:checked").val())).removeClass("loading");
+    get_result($("input[name=model]:checked", "#models").val());
+    $('#result').removeClass('loading');
+    $('#models').removeClass('loading');
+  }, 1000)
+});
+
+// STEP 2
+$('#models').on('change', 'input[type="radio"]', function() {
+  $('#result').addClass('loading');
+  setTimeout(function() {
+    get_result(
+      $("input[name=model]:checked", "#models").val(),
+      $("input[name=model]:checked", "#models").attr("data-brand-name"),
+      $("input[name=model]:checked", "#models").attr("data-series")
+    );
+    $('#result').removeClass('loading');
+  }, 1000)
+});
+
+// STEP 3
+$('body').on('click', '.other_model', function(event) {
+  event.preventDefault();
+  var id = $(this).attr('href');
+  $('#result').addClass('loading');
+  setTimeout(function() {
+    get_result(id);
+    $('#result').removeClass('loading');
+  }, 1000)
+});
+
+})(jQuery);

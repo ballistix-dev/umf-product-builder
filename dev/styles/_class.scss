@@ -1,0 +1,41 @@
+body {
+  color: $base-font-color;
+
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+}
+
+.loading {
+  position: relative;
+
+  overflow: hidden;
+
+  height: 320px;
+
+  &:before {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    content: '';
+
+    background-color: #fff;
+    background-image: url('./../img/Spin-1s-64px.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+.card {
+  margin-bottom: $base-spacing;
+
+  border-radius: $base-border-radius;
+  background-color: #F0F0F0;
+
+  @include padding($base-spacing*2);
+}

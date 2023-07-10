@@ -1,0 +1,33 @@
+*[data-fancybox="video-gallery"] {
+  position: relative;
+
+  display: block;
+
+  margin-bottom: $base-spacing;
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    content: "\f144";
+
+    color: rgba(255,255,255,0.75);
+    background-color: rgba(0,0,0,0.15);
+
+    font-family: "Font Awesome 5 Pro";
+    font-size: modular-scale(6);
+    font-weight: 400;
+  }
+  &:hover {
+    &:after {
+      color: rgba(255,255,255,0.95);
+      background-color: rgba(0,0,0,0.35);
+    }
+  }
+}

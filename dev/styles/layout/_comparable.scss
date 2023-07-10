@@ -1,0 +1,305 @@
+#comparable {
+  .tab-link.is-active {
+      background-color: #a0f7eb;
+      color: #333;
+    }
+    h5 {
+      margin-bottom: $base-spacing;
+      small {
+        color: #06D5B9;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: $small-spacing;
+      }
+    }
+
+  .models-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @include media($tablet-width) {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    > li {
+      margin-bottom: 0.75em;
+      a {
+        text-decoration: none;
+        color: #333333;
+        &:before {
+          content: "\2610";
+          margin-right: 0.5em;
+          font-size: 1.25em;
+        }
+        &.selected {
+          &:before {
+            color: $primary-color;
+            content: "\2611";
+          }
+        }
+      }
+    }
+  }
+}
+#result {
+
+
+  @include media($tablet-width) {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    .data,
+    .image,
+    .augmented-reality {
+
+      flex-basis: calc(50% - 30px);
+    }
+  }
+
+
+
+  .data {
+    @extend.card;
+
+    .product_url
+    {
+      @extend.button;
+      margin-bottom: $base-spacing;
+    }
+
+    .product_information,
+    {
+      @extend.button;
+      margin-bottom: $base-spacing;
+    }
+    a {
+      color: $dark-gray;
+    }
+
+    ul.features {
+      list-style: none;
+
+      padding: 0;
+      li {
+        padding-left: $base-spacing*1.5;
+        position: relative;
+        &:before {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          font-family: "Font Awesome 5 Pro";
+          font-weight: 900;
+          content: "\f14a";
+          color: $primary-color;
+        }
+      }
+    }
+
+    h4 {
+      padding-bottom: $base-spacing;
+      margin-bottom: $base-spacing;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 80%;
+        bottom: 0;
+        left: 0;
+        border-bottom: 5px solid #06D5B9;
+      }
+    }
+  }
+}
+// #comparable {
+//
+//   h5 {
+//     margin-bottom: $base-spacing;
+//     small {
+//       color: #06D5B9;
+//       text-transform: uppercase;
+//       display: inline-block;
+//       margin-bottom: $small-spacing;
+//     }
+//   }
+//   .models-list {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//     @include media($tablet-width) {
+//       columns: 2;
+//       -webkit-columns: 2;
+//       -moz-columns: 2;
+//     }
+//     > li {
+//
+//     }
+//   }
+//   #brands {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//
+//     li {
+//       display: block;
+//       @include media($desktop-width) {
+//         display: inline-block;
+//         margin-right: $base-spacing;
+//       }
+//
+//     }
+//
+//     li input[type=radio] {
+//       position: absolute;
+//       visibility: hidden;
+//     }
+//
+//     li label {
+//       @extend.button-outline;
+//       background-color: transparent;
+//       color: darken($light-gray,20);
+//       text-transform: none;
+//       letter-spacing: 0;
+//       border: 1px solid $light-gray;
+//
+//       font-weight: 600;
+//
+//       width: 100%;
+//       display: block;
+//     }
+//
+//     li:hover label {
+//       background-color: transparent;
+//       color: $primary-color;
+//       border-color: $primary-color;
+//     }
+//
+//     li .check {
+//       //@extend.button;
+//       // display: block;
+//       // position: absolute;
+//       // border: 5px solid #AAAAAA;
+//       // border-radius: 100%;
+//       // height: 25px;
+//       // width: 25px;
+//       // top: 30px;
+//       // left: 20px;
+//       // z-index: 5;
+//       // transition: border .25s linear;
+//       // -webkit-transition: border .25s linear;
+//     }
+//
+//     li:hover .check {
+//       //border: 5px solid #FFFFFF;
+//       background-color: transparent!important;
+//     }
+//
+//     li .check::before {
+//       // display: block;
+//       // position: absolute;
+//       // content: '';
+//       // border-radius: 100%;
+//       // height: 15px;
+//       // width: 15px;
+//       // top: 5px;
+//       // left: 5px;
+//       // margin: auto;
+//       // transition: background 0.25s linear;
+//       // -webkit-transition: background 0.25s linear;
+//     }
+//
+//     input[type=radio]:checked ~ .check {
+//       //  border: 5px solid #0DFF92;
+//     }
+//
+//     input[type=radio]:checked ~ .check::before {
+//       //  background: #0DFF92;
+//     }
+//
+//     input[type=radio]:checked ~ label {
+//       color: $primary-color;
+//       border-color: $primary-color;
+//     }
+//   }
+//
+//   #models {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//     @include media($tablet-width) {
+//       columns: 2;
+//       -webkit-columns: 2;
+//       -moz-columns: 2;
+//     }
+//
+//     > li {
+//       margin-bottom: $base-spacing;
+//       padding-left: $base-spacing*2;
+//       position: relative;
+//       input {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//       }
+//
+//     }
+//   }
+//
+//   .other {
+//     list-style: none;
+//     m: 0;
+//     padding: 0;
+//   }
+//
+//   .feature {
+//     list-style: none;
+//     padding: 0;
+//
+//     li {
+//       padding-left: $base-spacing*1.5;
+//       position: relative;
+//
+//       &:before {
+//         position: absolute;
+//         top: 1px;
+//         left: 0;
+//         font-family: "Font Awesome 5 Pro";
+//         font-weight: 900;
+//         content: "\f14a";
+//         color: $primary-color;
+//       }
+//     }
+//   }
+//
+//   .hero {
+//     background-color: #EFF5FD;
+//     position: relative;
+//     padding-top: $base-spacing*4;
+//
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       z-index: 500;
+//       top: 0;
+//       right: 0;
+//       bottom: -20vh;
+//       left: 60%;
+//       background-image: url("./../img/blue-swish.png");
+//       background-repeat: no-repeat;
+//       background-position: 0 0;
+//       background-size: cover;
+//     }
+//
+//     .content {
+//       margin-bottom: $base-spacing*10;
+//     }
+//
+//     .container {
+//       position: relative;
+//       z-index: 1000;
+//     }
+//   }
+// }

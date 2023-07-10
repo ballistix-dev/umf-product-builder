@@ -1,0 +1,74 @@
+// Colors
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+$primary-color: #1595FE;
+
+$info-color: #00AEEF;
+$success-color: #00A651;
+$danger-color: #FF4D4D;
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+
+$base-font-family: 'Assistant', sans-serif;
+$heading-font-family: 'Raleway', sans-serif;
+
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$heading-line-height: 1.2;//1.160949868073879;
+
+$base-font-weight: 300;
+$heading-font-weight: 700;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$heading-font-color: #353535;//$base-font-color;
+
+// Other Sizes
+$base-border-radius: 8px;
+$base-spacing: 1rem;
+$small-spacing: $base-spacing * 0.5;
+$base-z-index: 0;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #F2F2F2;//tint($light-gray, 50);
+$secondary-background-color: shade($base-border-color, 65);
+
+// Shadow
+$base-box-shadow: 5px 2px 10px 2px rgba(0,0,0,0.1);
+
+// Animations
+$base-duration: 250ms;
+$base-timing: ease;
+
+// Globally change the base ratio
+$bourbon: (
+  //"modular-scale-ratio": 1.250, // Major Third
+  "modular-scale-ratio": 1.333, // Perfect Fourth
+  //"modular-scale-ratio": 1.500, // Perfect Fifth
+  //"modular-scale-ratio": 1.618, // Golden Ratio
+);
+
+// Container Widths
+
+$mobile-width: 425px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+$grid-breakpoints: (
+  mobile: $mobile-width,
+  tablet: $tablet-width,
+  desktop: $desktop-width,
+);
+// Columns
+//
+// Specify amount of columns and the size of the gap.
+$columns: 12;
+$column-gap: $base-spacing;

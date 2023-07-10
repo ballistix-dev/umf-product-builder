@@ -1,0 +1,115 @@
+[{
+  "id": 0,
+  "text": "Are you looking to accommodate all patient types with ADA accessibility?",
+  "tooltip" : "Americans with Disabilities Act (ADA). Healthcare providers must provide exam tables that are accessible to persons with disabilities. As Americans become increasingly older and overweight, ADA accessible exam tables are becoming more important.",
+  "choices": [{
+      "text": "Yes",
+      "type": "choice",
+      "target": 1
+    },
+    {
+      "text": "No",
+      "type": "choice",
+      "target": 2
+    }
+  ]
+}, {
+  "id": 1,
+  "text": "Would you prefer manual back or power back?",
+  "tooltip" : "Consider your patient population. Are the majority of your patients elderly or overweight? While a manual back can be more cost effective, a power back makes it easier to recline or sit a patient up without risk of injury to the patient or clinician.",
+  "choices": [{
+    "text": "Manual Back",
+    "type": "choice",
+    "target": 3
+  }, {
+    "text": "Power Back",
+    "type": "choice",
+    "target": 4
+  }]
+}, {
+  "id": 2,
+  "text": "Would you prefer a front step or a side step on your manual exam table?",
+  "tooltip" : "",
+  "choices": [{
+    "text": "Front step",
+    "type": "choice",
+    "target": 7
+  }, {
+    "text": "Side Step",
+    "type": "result",
+    "target": "5240-145"
+  }]
+}, {
+  "id": 3,
+  "text": "Are you looking to accommodate patients with a 500-lb weight capacity only?",
+  "tooltip" : "",
+  "choices": [{
+    "text": "500lb",
+    "type": "result",
+    "target": "FusionONE,FUSIONONEPROGLIDE"
+  }, {
+    "text": "650lb",
+    "type": "result",
+    "target": "4070"
+  }]
+}, {
+  "id": 4,
+  "text": "Are you in need of a two-function exam table or a four-function procedure chair?",
+  "tooltip" : "Two-function power exam tables make it easy for a clinician to raise and lower the table in small, virtually continuous increments to an appropriate height for the exam. At the same time, the clinician can easily recline and sit a patient up with a push of a button, avoiding the risk of injury that can come with manual back exam tables.Four-function procedure chairs provide the power high-low and back up/down like a power exam table. However, they also provide power pelvic tilt and leg extension to enable better patient positioning for specialty procedures.",
+  "choices": [{
+    "text": "Exam table",
+    "type": "choice",
+    "target": 5
+  }, {
+    "text": "Procedure Chair",
+    "type": "choice",
+    "target": 6
+  }]
+}, {
+  "id": 5,
+  "text": "What weight capacity would best accommodate your patient population?",
+  "tooltip" : "While exam tables with a 500-lb weight capacity generally work for most patient populations, if your facility specializes in caring for people close to or over 650lb, a 650lb or 800lb weight capacity exam table might be appropriate.",
+  "choices": [{
+    "text": "500 lbs",
+    "type": "result",
+    "target": "FusionONEPlus,FUSIONONEPLUSPROGLIDE"
+  }, {
+    "text": "650 lbs",
+    "type": "result",
+    "target": "4040"
+  }, {
+    "text": "800 lbs",
+    "type": "result",
+    "target": "5005"
+  }]
+}, {
+  "id": 6,
+  "text": "Do you perform leg-centric, head-centric or podiatry/wound care procedures?",
+  "tooltip" : "Choose a procedure chair that works best for your specialty. Does your facility perform procedures located on the upper body, lower body or require special features for podiatry and wound care?",
+  "choices": [{
+    "text": "Leg-Centric",
+    "type": "result",
+    "target": "4011"
+  }, {
+    "text": "Head-Centric",
+    "type": "result",
+    "target": "4010"
+  }, {
+    "text": "Podiatry/Wound Care",
+    "type": "result",
+    "target": "5016"
+  }]
+}, {
+  "id": 7,
+  "text": "Would you prefer 4 or 5 storage drawers?",
+  "tooltip" : "",
+  "choices": [{
+    "text": "4 drawers",
+    "type": "result",
+    "target": "5240"
+  }, {
+    "text": "5 drawers",
+    "type": "result",
+    "target": "5250"
+  }]
+}]

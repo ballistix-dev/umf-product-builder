@@ -1,0 +1,93 @@
+.hero {
+  position: relative;
+  padding-top: $base-spacing*4;
+
+  .brand {
+    margin-bottom: $base-spacing*4;
+  }
+
+  .content {
+    margin-bottom: $base-spacing*10;
+  }
+
+  h2 {
+    position: relative;
+    padding-bottom: $base-spacing*2;
+    margin-bottom: $base-spacing*2;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: auto;
+      bottom: 0;
+      left: 0;
+      border-bottom: 4px solid #06D5B9;
+      width: 10%;
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 1000;
+  }
+}
+
+#result {
+  border-top: $base-border;
+  padding-top: $base-spacing*2;
+  margin-top: $base-spacing*4;
+
+  @include media($desktop-width) {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .content {
+      //flex-basis: 46%;
+      width: calc(50% - ( 0.5 * 30px ) );
+    }
+
+    .augmented-reality {
+      //flex-basis: 46%;
+      width: calc(50% - ( 0.5 * 30px ) );
+    }
+  }
+
+  .content {
+    @extend.card;
+
+    .product_url
+    {
+      @extend.button;
+      margin-bottom: $base-spacing;
+    }
+
+    .product_information,
+    {
+      @extend.button;
+      margin-bottom: $base-spacing;
+    }
+    a {
+      color: $dark-gray;
+    }
+
+    h4 {
+      padding-bottom: $base-spacing;
+      margin-bottom: $base-spacing;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 80%;
+        bottom: 0;
+        left: 0;
+        border-bottom: 5px solid #06D5B9;
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+h1,h2,h3, h4, h5 {
+  margin-bottom: $base-spacing;
+  small {
+    color: #06D5B9;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: $small-spacing;
+  }
+}
+#qr-link {
+
+  color: #fff!important;
+    background: #1595fe!important;
+    padding: $base-spacing!important;
+
+}
+
+.loading {
+  position: relative;
+
+  overflow: hidden;
+
+  max-height: 320px;
+
+  &:before {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    content: '';
+
+    background-color: #fff;
+    background-image: url('./../img/Spin-1s-64px.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+
+.clearfix {
+  overflow: auto;
+
+  &:after {
+    display: table;
+    clear: both;
+
+    content: "";
+  }
+}
+
+.non-responsive-image {
+  @include media($desktop-width) {
+    max-width: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: $base-spacing;
+
+  span {
+    color: $primary-color;
+  }
+}
+
+.section-padding {
+  padding-top: $base-spacing*2;
+  padding-bottom: $base-spacing*2;
+
+  @include media($tablet-width) {
+    padding-top: $base-spacing*4;
+    padding-bottom: $base-spacing*4;
+  }
+}
+
+.section-padding-top {
+  padding-top: $base-spacing*6;
+}
+
+.section-padding-top-small {
+  padding-top: $base-spacing*2;
+}
+
+.section-padding-bottom {
+  padding-bottom: $base-spacing*6;
+}
+
+.section-padding-small {
+  padding-top: $base-spacing;
+  padding-bottom: $base-spacing;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right-desktop {
+  @include media($desktop-width) {
+    text-align: right;
+  }
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-success {
+  color: $success-color;
+}
+
+.hide-on-mobile {
+  @media only screen and (max-width: $mobile-width) {
+    display: none;
+  }
+}
+
+.center-on-mobile {
+  @media only screen and (max-width: $mobile-width) {
+    text-align: center;
+  }
+}
+
+.center-on-tablet {
+  @media only screen and (max-width: $tablet-width) {
+    text-align: center;
+  }
+}
+
+.background-color-light {
+  background-color: #E5F3F8;
+}
+
+.background-color-info {
+  background-color: $info-color;
+}
+
+.background-color-success {
+  background-color: $success-color;
+}
+.list-inline {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  > li {
+    display: inline-block;
+  }
+}
+.card {
+  margin-bottom: $base-spacing;
+
+  border-radius: $base-border-radius;
+  background-color: #F0F0F0;
+
+  @include padding($base-spacing*2);
+}

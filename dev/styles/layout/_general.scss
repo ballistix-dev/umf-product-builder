@@ -1,0 +1,18 @@
+#site-header {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+
+  @include padding($base-spacing);
+}
+
+#site-footer {
+  padding-top: $base-spacing*2;
+  padding-bottom: $base-spacing*2;
+
+  color: white;
+  background-color: $primary-color;
+}

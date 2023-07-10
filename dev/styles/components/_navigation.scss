@@ -1,0 +1,31 @@
+.menu {
+  // margin: $base-spacing 0 $base-spacing*2;
+  // padding: 0;
+
+  list-style: none;
+
+  > li {
+
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    > a {
+
+      display: block;
+      text-decoration: none;
+
+      padding: $small-spacing $base-spacing;
+      color: $dark-gray;
+
+      &:hover {
+        background-color: $primary-color;
+        color: contrast-switch($primary-color);
+      }
+    }
+
+  }
+}

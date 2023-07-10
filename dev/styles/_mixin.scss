@@ -1,0 +1,82 @@
+@mixin media($value) {
+  @media (min-width: #{$value}) {
+    @content;
+  }
+}
+// @mixin overlay() {
+//   position: relative;
+//   z-index: 5000;
+//
+//   &:before {
+//     position: absolute;
+//     z-index: 1000;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//
+//     content: '';
+//
+//     background-color: rgba(0,0,0,0.35);
+//   }
+// }
+
+// Device breakpoint up. If the breakpoint is the smallest it will
+// return without media query.
+// @mixin device-up($name, $breakpoints: $grid-breakpoints) {
+//   $min: map-get($breakpoints, $name);
+//   @if if(0 != $min, $min, null) {
+//     @media (min-width: $min) {
+//       @content;
+//     }
+//   } @else {
+//     @content;
+//   }
+// }
+//
+// @mixin build-columns($columns: $columns, $gap: $column-gap, $breakpoints: $grid-breakpoints) {
+//   // Set Defaults
+//   %defaults { // % is used to create the placeholder
+//     position: relative;
+//     width: 100%;
+//     min-height: 1px;
+//     padding-right: ($gap);
+//     padding-left: ($gap);
+//   }
+//
+//   $min: 0;
+//
+//   // Loop Breakpoints
+//   @each $breakpoint in map-keys($breakpoints) {
+//     //$label: if(if(0 != $min, $min, null), $breakpoint, 'all');
+//     $label:  $breakpoint;
+//
+//     @for $i from 1 through $columns {
+//       .#{$label}-#{$i} {
+//         @extend %defaults;
+//       }
+//     }
+//
+//      @media (min-width: #{$min}) {
+//
+//       // Calculate grid sizes
+//       @for $i from 1 through $columns {
+//         .#{$label}-#{$i} {
+//           flex: 0 0 calc(100% * #{$i} / #{$columns});
+//           max-width: calc(100% * #{$i} / #{$columns});
+//
+//           // Calculate Offset
+//           @if not ($label == "all" and $i == 0) {
+//             &--offset {
+//               $num: $i / $columns;
+//               margin-left: if($num == 0, 0, calc(100% * #{$i} / #{$columns}));
+//             }
+//           }
+//
+//         }
+//       }
+//     }
+//     $min: map-get($breakpoints, $breakpoint);
+//   }
+// }
+// @include build-columns();

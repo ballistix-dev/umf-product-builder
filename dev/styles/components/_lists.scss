@@ -1,0 +1,21 @@
+ul,
+ol {
+  // margin: 0;
+  // padding: 0;
+  margin-bottom: $base-spacing;
+  li {
+    line-height: 1.375;
+    margin-bottom: 0.875em;
+  }
+}
+
+dl {
+  margin: 0;
+  dt {
+    font-weight: 700;
+    //margin: 0;
+  }
+  dd {
+    //margin: 0;
+  }
+}

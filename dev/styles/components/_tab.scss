@@ -1,0 +1,87 @@
+$breakpoint: 769px;
+$breakpoint-small:  426px;
+
+.accordion-tabs {
+
+  //overflow: auto;
+
+  &:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  .tab-header-and-content {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    @media only screen and (min-width: $breakpoint-small) {
+      display: inline;
+    }
+  }
+
+  .tab-link {
+
+    @extend.button-outline;
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+    text-decoration: none;
+
+
+    &:after {
+      float: right;
+
+      content: "+";
+    }
+    @media only screen and (min-width: $breakpoint-small) {
+      display: inline-block;
+
+      margin-right: 1em;
+
+      &:hover {
+      }
+      &:after {
+        content: "";
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      &:after {
+        content: "-";
+      }
+      @media only screen and (min-width: $breakpoint-small) {
+
+        &:after {
+          content: "";
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+
+    padding: $small-spacing;
+
+    &.is-open {
+      //display: block;
+    }
+    @media only screen and (min-width: $breakpoint-small) {
+      float: left;
+      width: 90%;
+    }
+  }
+}

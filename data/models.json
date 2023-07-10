@@ -1,0 +1,492 @@
+[{
+	"id": 0,
+	"model_number":"3001",
+	"name": "UMF Medical 3001 FusionONE Exam Table",
+	"series": "FusionONE",
+	"product_information": "https://information.umfmedical.com/asset/129:3001umf-medicalfusionone-chairpdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/07/fusionone-3001-model.png",
+	"features": [
+		"Power hi-lo and manual backrest",
+		"One-function foot control with hi-lo",
+		"Large, reversible side drawer and large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” - 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	]
+}, {
+	"id": 1,
+	"model_number":"3002",
+	"name": "UMF Medical 3002 FusionONE Exam Table",
+	"series": "FusionONE",
+	"product_information": "https://information.umfmedical.com/asset/130:3002umf-medicalfusionone-chairpdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/06/umf-medical_fusionone-3002-model.png",
+	"features": [
+		"Power hi-lo and manual backrest",
+		"One-function foot control with hi-lo",
+		"Large, reversible side drawer and large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” - 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 2,
+	"model_number":"3003",
+	"name": "UMF Medical 3003 FusionONE Exam Table",
+	"series": "FusionONE",
+	"product_information": "https://information.umfmedical.com/asset/131:3003umf-medicalfusionone-chairpdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/06/umf-medical_fusionone-3003-model.png",
+	"features": [
+		"Power hi-lo and manual backrest",
+		"One-function foot control with hi-lo",
+		"Large, reversible side drawer and large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” - 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"Drawer Warmer",
+		"Pelvic tilt (7 °)",
+		"Electrical receptacle",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 3,
+	"model_number":"4070-650-100",
+	"name": "UMF Medical 4070-650-100 Power100 Exam Table",
+	"series": "4070",
+	"product_information": "https://information.umfmedical.com/asset/26:umf-medicalpower-exam-chairs4070-650-100power100pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4070-650-100_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & manual back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer"
+	]
+}, {
+	"id": 4,
+	"model_number":"4070-650-200",
+"name": "UMF Medical 4070-650-200 Power200 Exam Table",
+	"series": "4070",
+	"product_information": "https://information.umfmedical.com/asset/25:umf-medicalpower-exam-chairs4070-650-200power200pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4070-650-200_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & manual back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer",
+		"Rear storage drawer",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Receptacle"
+	]
+}, {
+	"id": 5,
+	"model_number":"4070-650-300",
+"name": "UMF Medical 4070-650-300 ProGlide300 Exam Table",
+	"series": "4070",
+	"product_information": "https://information.umfmedical.com/asset/24:umf-medicalpower-exam-chairs4070-650-300proglide300pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4070-650-300_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & manual back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer",
+		"Rear storage drawer",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Receptacle",
+		"Drawer warmer",
+		"OneTouch Wheelbase® System"
+	]
+}, {
+	"id": 6,
+	"model_number":"4040-650-100",
+"name": "UMF Medical 4040-650-100 Power100+ Exam Table",
+	"series": "4040",
+	"product_information": "https://information.umfmedical.com/asset/27:umf-medicalpower-exam-chairs4040-650-100power100pluspdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4040-650-100_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & power back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer"
+	]
+}, {
+	"id": 7,
+	"model_number":"4040-650-200",
+"name": "UMF Medical 4040-650-200 Power200+ Exam Table",
+	"series": "4040",
+	"product_information": "https://information.umfmedical.com/asset/20:umf-medicalpower-exam-chairs4040-650-200power200pluspdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4040-650-200_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & power back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer",
+		"Rear storage drawer",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Receptacle"
+	]
+}, {
+	"id": 8,
+	"model_number":"4040-650-300",
+"name": "UMF Medical 4040-650-300 ProGlide300+ Exam Table",
+	"series": "4040",
+	"product_information": "https://information.umfmedical.com/asset/23:umf-medicalpower-exam-chairs4040-650-300proglide300pluspdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4040-650-300_warm-sand.jpg",
+	"features": [
+		"Power hi-lo & power back",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Foot control",
+		"Front storage drawer",
+		"Rear storage drawer",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Receptacle",
+		"Drawer warmer",
+		"OneTouch Wheelbase® System"
+	]
+}, {
+	"id": 9,
+	"model_number":"4011-650-100",
+"name": "UMF Medical 4011-650-100 Power4011 Leg-Centric Procedure Chair",
+	"series": "4011",
+	"product_information": "https://information.umfmedical.com/asset/28:umf-medicalpower-procedure-chairs4011-650-100power4011pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4011-650-100_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foldaway stirrups with adjustable length",
+		"Pull-out drain pan"
+	]
+}, {
+	"id": 10,
+	"model_number":"4011-650-200",
+"name": "UMF Medical 4011-650-200 Power4011p Leg-Centric Procedure Chair",
+	"series": "4011",
+	"product_information": "https://information.umfmedical.com/asset/29:umf-medicalpower-procedure-chairs4011-650-200power4011ppdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4011-650-200_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foldaway stirrups with adjustable length",
+		"Pull-out drain pan",
+		"Foot control with OneTouch Patient Positioning® System"
+	]
+}, {
+	"id": 11,
+	"model_number":"4011-650-300",
+"name": "UMF Medical 4011-650-300 ProGlide4011 Leg-Centric Procedure Chair",
+	"series": "4011",
+	"product_information": "https://information.umfmedical.com/asset/30:umf-medicalpower-procedure-chairs4011-650-300proglide4011pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4011-650-300_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foldaway stirrups with adjustable length",
+		"Pull-out drain pan",
+		"Foot control with OneTouch Patient Positioning® System",
+		"OneTouch Wheelbase® System"
+	]
+}, {
+	"id": 12,
+	"model_number":"4010-650-100",
+"name": "UMF Medical 4010-650-100 Power4010 Head-Centric Procedure Chair",
+	"series": "4010",
+	"product_information": "https://information.umfmedical.com/asset/15:umf-medicalpower-procedure-chairs4010-650-100power4010pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4010-650-100_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest"
+	]
+}, {
+	"id": 13,
+	"model_number":"4010-650-200",
+"name": "UMF Medical 4010-650-200 Power4010p Head-Centric Procedure Chair",
+	"series": "4010",
+	"product_information": "https://information.umfmedical.com/asset/21:umf-medicalpower-procedure-chairs4010-650-200power4010ppdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4010-650-200_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foot control with OneTouch Patient Positioning® System"
+	]
+}, {
+	"id": 14,
+	"model_number":"4010-650-300",
+"name": "UMF Medical 4010-650-300 ProGlide4010 Head-Centric Procedure Chair",
+	"series": "4010",
+	"product_information": "https://information.umfmedical.com/asset/22:umf-medicalpower-procedure-chairs4010-650-300proglide4010pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/4010-650-300_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foot control with OneTouch Patient Positioning® System",
+		"OneTouch Wheelbase® System"
+	]
+}, {
+	"id": 15,
+	"model_number":"5016-650-100",
+"name": "UMF Medical 5016-650-100 Power5016 Podiatry/Wound Care Procedure Chair",
+	"series": "5016",
+	"product_information": "https://information.umfmedical.com/asset/31:umf-medicalpower-procedure-chairs5016-650-100power5016pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/5016-650-100_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest"
+	]
+}, {
+	"id": 16,
+	"model_number":"5016-650-200",
+"name": "UMF Medical 5016-650-200 Power5016p Podiatry/Wound Care Procedure Chair",
+	"series": "5016",
+	"product_information": "https://information.umfmedical.com/asset/32:umf-medicalpower-procedure-chairs5016-650-200power5016ppdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/5016-650-200_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foot control with OneTouch Patient Positioning® System"
+	]
+}, {
+	"id": 17,
+	"model_number":"5016-650-300",
+"name": "UMF Medical 5016-650-300 ProGlide5016 Podiatry/Wound Care Procedure Chair",
+	"series": "5016",
+	"product_information": "https://information.umfmedical.com/asset/33:umf-medicalpower-procedure-chairs5016-650-300proglide5016pdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/03/5016-650-300_warm-sand.jpg",
+	"features": [
+		"Power hi-lo, back, tilt & leg extension",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Hand control with OneTouch Patient Positioning® System",
+		"Double-articulating headrest",
+		"Foot control with OneTouch Patient Positioning® System",
+		"OneTouch Wheelbase® System"
+	]
+}, {
+	"id": 18,
+	"model_number":"5240",
+"name": "UMF Medical 5240 Manual Exam Table",
+	"series": "5240",
+	"product_information": "https://information.umfmedical.com/asset/72:5240umf-medicalmanual-exam-tablepdf",
+	"image": "",
+	"features": [
+		"500lb capacity (226.8kg)",
+		"Removable seamless upholstered top with Prefixx® Protective Finish",
+		"Galvanized steel base, heavy gauge, powder coated",
+		"Comfort Grip Back Release Handle",
+		"One-touch, easy glide stirrups with 4 lateral positions and friction lock length adjustment",
+		"Slide out leg section with removable upholstered leg rest",
+		"Removable 9”x9” plastic drip pan (22.9cm x 22.9cm)",
+		"Pull-out all steel non slip step 7” high (17.8cm",
+		"21” Paper roll holder (53.3cm)",
+		"2 front drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+		"2 reversible side storage drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+		 "5-year limited warranty"
+	]
+}, {
+	"id": 19,
+	"model_number":"5240-145",
+"name": "UMF Medical 5240-145 Manual Exam Table",
+	"series": "5240-145",
+	"product_information": "https://information.umfmedical.com/asset/73:5240-145umf-medicalmanual-exam-tablepdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/05/umf-medical_5240-145_manual-exam-table.jpg",
+	"features": [
+		  "500lb capacity (226.8kg)",
+			"Removable seamless upholstered top with Prefixx® Protective Finish",
+			"Galvanized steel base, heavy gauge, powder coated",
+			"Comfort Grip Back Release Handle",
+			"One-touch, easy glide stirrups with 4 lateral positions and friction lock length adjustment",
+			"Slide out leg section with removable upholstered leg rest",
+			"Removable 9”x9” plastic drip pan (22.9cm x 22.9cm)",
+			"Pull out steel non-slip side step 7” high (17.8cm)",
+			"21” Paper roll holder (53.3cm)",
+				"2 front drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+			"2 reversible side storage drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+				"5-year limited warranty"
+	]
+}, {
+	"id": 20,
+	"model_number":"5250",
+"name": "UMF Medical 5250 Manual Exam Table",
+	"series": "5250",
+	"product_information": "https://information.umfmedical.com/asset/74:5250umf-medicalmanual-exam-tablepdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/05/umf-medical_5250_manual-exam-table.jpg",
+	"features": [
+		"500lb capacity (226.8kg)",
+		"Removable, Seamless Upholstered Top with Prefixx® Protective Finish",
+		"Galvanized 18 gauge, powder coated steel base",
+		"Comfort Grip Back Release Handle",
+		"One-touch, easy-glide stirrups with 4 lateral positions and friction lock length adjustment",
+		"Slide out leg section with removable upholstered leg rest",
+		"Removable 9”x9” plastic drip pan (22.9cm x 22.9cm)",
+		"Pull out steel non-slip side step 7” high (17.8cm)",
+		"21” Paper roll holder (53.3cm)",
+		"2 front drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+		"2 reversible side storage drawers on full extension roller bearing glides 18.25”x15.5”x4” each (46.4cm x 39.4cm x 10.2cm)",
+		"5-year limited warranty"
+		]
+}, {
+	"id": 21,
+	"model_number":"5005",
+    "name": "UMF Medical 5005 Two-Function Bariatric Exam Table",
+	"series": "5005",
+	"product_information": "https://information.umfmedical.com/asset/66:5005umf-medicaltwo-function-bariatric-power-tablepdf",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2020/04/umf-medical_5005_two-function-bariatric-power-table_onyx.jpg",
+	"features": [
+		"Ultra comfort seamless top with anti-microbial guard and built in pillow",
+		"ADA Compliant with 19” (48.3cm) low access",
+		"All-steel heavy duty construction",
+		"Power Hi-Lo",
+		"Two function hand control Concealed paper roll holder 18” – 21” (45.7cm – 53.3cm)",
+		"Electro-mechanical actuator system 10” (25.4cm) leg section",
+		"Large, full extension storage drawer on roller bearing drawer guides 800lb (363kg) weight capacity",
+		"3 year limited warranty"
+	]
+}, {
+	"id": 22,
+	"model_number":"3502",
+	"name": "UMF Medical 3502 FusionONE+ Power Exam Table",
+	"series": "FusionONEPlus",
+	"product_information": "https://information.umfmedical.com/asset/173:umf-medical-fusiononeplus-3502",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2022/05/umf-medical_3503_fusiononeplus_morning-fog.jpg",
+	"features": [
+		"Foldaway stirrups with four lateral positions and adjustable length",
+		"Large, reversible side drawer and large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	], 
+	"additional": [
+		"Power hi-lo and power backrest",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 23,
+	"model_number":"3503",
+	"name": "UMF Medical 3503 FusionONE+ Power Exam Table",
+	"series": "FusionONEPlus",
+	"product_information": "https://information.umfmedical.com/asset/174:umf-medical-fusiononeplus-3503",
+	"image": "https://www.umfmedical.com/wp-content/uploads/2022/05/umf-medical_3503_fusiononeplus_morning-fog.jpg",
+	"features": [
+		"Two-function foot control",
+		"Large, reversible side drawer and large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"Drawer Warmer",
+		"Pelvic tilt (7 °)",
+		"Electrical receptacle",
+		"Power hi-lo and power backrest",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 24,
+	"model_number":"3002-500-300",
+	"name": "UMF Medical 3002-500-300 FusionONE ProGlide Exam Table",
+	"series": "FUSIONONEPROGLIDE",
+	"product_information": "https://information.umfmedical.com/asset/184:",
+	"image": "https://www.umfmedical.com//wp-content/plugins/umf-product-builder/img/models/3002-500-300.png",
+	"features": [
+		"Power hi-lo and manual backrest",
+		"One-function foot control with hi-lo",
+		"Large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"OneTouch WheelBase® System",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 25,
+	"model_number":"3003-500-300",
+	"name": "UMF Medical 3003-500-300 FusionONE ProGlide Exam Table",
+	"series": "FUSIONONEPROGLIDE",
+	"product_information": "https://information.umfmedical.com/asset/185:",
+	"image": "https://www.umfmedical.com//wp-content/plugins/umf-product-builder/img/models/3003-500-300.png",
+	"features": [
+		"Power hi-lo and manual backrest",
+		"One-function foot control with hi-lo",
+		"Large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"Drawer Warmer",
+		"Pelvic tilt (7 °)",
+		"Electrical receptacle",
+		"OneTouch WheelBase® System",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 26,
+	"model_number":"3502-500-300",
+	"name": "UMF Medical 3502-500-300 FusionONE+ ProGlide Exam Table",
+	"series": "FUSIONONEPLUSPROGLIDE",
+	"product_information": "https://information.umfmedical.com/asset/186:",
+	"image": "https://www.umfmedical.com//wp-content/plugins/umf-product-builder/img/models/3502-500-300.png",
+	"features": [
+		"Two-function foot control",
+		"Large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"OneTouch WheelBase® System",
+		"Power hi-lo and power backrest",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}, {
+	"id": 27,
+	"model_number":"3503-500-300",
+	"name": "UMF Medical 3503-500-300 FusionONE+ ProGlide Exam Table",
+	"series": "FUSIONONEPLUSPROGLIDE",
+	"product_information": "https://information.umfmedical.com/asset/187:",
+	"image": "https://www.umfmedical.com//wp-content/plugins/umf-product-builder/img/models/3503-500-300.png",
+	"features": [
+		"Two-function foot control",
+		"Large front drawer",
+		"Drain pan: plastic 1.5” deep (3.81cm)",
+		"18” – 21” paper roll holder",
+		"Removable, seamless upholstered top with PreFixx® Protective Finish",
+		"Heavy-gauge steel extension leg pull-out to accommodate most patient heights"
+	],
+	"additional": [
+		"Drawer Warmer",
+		"Pelvic tilt (7 °)",
+		"Electrical receptacle",
+		"OneTouch WheelBase® System",
+		"Power hi-lo and power backrest",
+		"Foldaway stirrups with four lateral positions and adjustable length"
+	]
+}
+]

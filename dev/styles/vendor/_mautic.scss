@@ -1,0 +1,82 @@
+.mauticform-page-wrapper {
+  padding-top: $base-spacing;
+  @include media($desktop-width) {
+    display: flex !important;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    .mauticform-row {
+      width: 100%;
+
+      &.field-half {
+        width: calc(50% - 1rem);
+        display: inline-block;
+      }
+    }
+  }
+
+  .mauticform-row {
+    position: relative;
+    //padding-bottom: $base-spacing;
+    margin-bottom: $base-spacing*1.5;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.mauticform-freehtml {
+      margin-bottom: $small-spacing * 1.75;
+    }
+    .mauticform-label {
+      // position: absolute;
+      // top: $base-spacing;
+      // left: $base-spacing;
+      // transition: all $base-duration $base-timing;
+      // color: $medium-gray;
+      // font-weight: 400;
+      // line-height: 1;
+      //
+      // &.active {
+      //   top: -1 * $base-spacing;
+      //   left: 0;
+      //   font-size: modular-scale(-1);
+      // }
+
+      .mauticform-input,
+      .mauticform-selectbox {}
+    }
+
+    &.mauticform-has-error {
+      .mauticform-input {
+        background-color: tint($danger-color, 80);
+        border-color: tint($danger-color, 60);
+      }
+
+      .mauticform-errormsg {
+        color: $danger-color;
+        font-size: modular-scale(-1);
+        font-style: italic;
+      }
+    }
+  }
+
+  .mauticform-button {
+    // padding-left: $base-spacing*6;
+    // padding-right: $base-spacing*6;
+    // background: transparent linear-gradient(89deg, #A468CC 0%, #D088FF 100%) 0% 0% no-repeat padding-box;
+    // box-shadow: 0px 10px 12px #00000026;
+    // border: 0;
+  }
+}
+
+.mauticform-post-success {
+  .mauticform-innerform {
+    display: none;
+  }
+}
+
+.mauticform-message:not(:empty) {
+  display: block;
+  @include padding($small-spacing);
+  margin-bottom: $base-spacing;
+  border: 1px solid $primary-color;
+  background-color: lighten($primary-color, 20);
+}
